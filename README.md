@@ -1,36 +1,23 @@
 # PYTHON
 ## Assignment 01
-#### 2022/09/13
+#### 2022/09/28
 ### **Loku Geeganage Sandushi Wagmini**
 
+# Program make a simple calculator
 
-<u>most commonly used programing languages</u>
- * java
- * python
- * C#
- * C++
- * SQL
- 
-
-
- ###  <center><u>Types of Network Devices 
-|Intermediate Devices| |End Devices| |Media |
-|----------||----------||----------|
-|Switches||Computers||Hard Disk|
-|Hub||Security Cameras||CD-ROM|
-|Router||VoIP Phones||Microfiche|
-
-
-print("Sandushi Wagmini") 
-
-username=input("Enter Your Name: ")
-print("Hello !", username)
-
-
-number1 =int(input("Type a number: "))
-number2 =int(input("Type another number: "))
-print("Total = ",number1+number2)
-
-
+def simple_Calculator(num1,num2,choise):
+    
+    if choise == 'a':
+        return num1 + num2     # Add two integers
+    elif choise == 's':
+        return num1 - num2     # subtract two integers
+    elif choise == 'm':
+        return num1 * num2     # Multiply two integers
+    elif choise == 'd':
+        return num1 / num2     # Divide two integers
+    else:
+        print("Invalid choise")
+        
+print("Output :",simple_Calculator(2,5,'d'))
 
 code
