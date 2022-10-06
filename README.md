@@ -1,5 +1,5 @@
-# PYTHON
-## Assignment 01
+# PYTHON Assignments
+## Assignment 03
 #### 2022/09/28
 ### **Loku Geeganage Sandushi Wagmini**
 
